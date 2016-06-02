@@ -1,0 +1,22 @@
+{# Include this file before the </head> tag #}
+<script>
+    var registerJs = (function() {
+        var js = [];
+
+        function add(f) {
+            js.push(f);
+        }
+
+        function execute() {
+            for (var i=0;i<js.length;i++) {
+                js[i]();
+            }
+            js = [];
+        }
+
+        return {
+            add: add,
+            execute: execute
+        }
+    })();
+</script>
