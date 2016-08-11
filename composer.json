@@ -15,7 +15,8 @@
         "phpunit/phpunit" : "~4.0||~5.0"
     },
     "suggest": {
-        "stof/doctrine-extensions-bundle": "Timestampable trait"
+        "stof/doctrine-extensions-bundle": "Timestampable trait",
+        "doctrine/orm": "Key => Value hydrator"
     },
     "autoload": {
         "psr-4": {
