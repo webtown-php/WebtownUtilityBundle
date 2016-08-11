@@ -42,3 +42,7 @@ class AppKernel extends Kernel
     // ...
 }
 ```
+
+Features
+--------
+[Doctrine hydrators](Resources/docs/doctrine-hydrator.md)
